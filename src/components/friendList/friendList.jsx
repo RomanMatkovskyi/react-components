@@ -1,4 +1,5 @@
 import s from './friendList.module.css';
+import PropTypes from 'prop-types';
 
 export const FriendList = ({ friendList }) => {
   return (
@@ -23,4 +24,8 @@ export const FriendList = ({ friendList }) => {
       </ul>
     </div>
   );
+};
+
+FriendList.propTypes = {
+  friendList: PropTypes.array,
 };
