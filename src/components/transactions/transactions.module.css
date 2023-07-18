@@ -1,0 +1,17 @@
+.transaction_history {
+  width: 400px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.title {
+  background-color: aqua;
+}
+
+.iteam:nth-child(even) {
+  background-color: rgba(244, 238, 226, 0.734);
+}
+
+.itemTitle::first-letter {
+  text-transform: uppercase;
+}

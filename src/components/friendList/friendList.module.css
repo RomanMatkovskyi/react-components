@@ -1,0 +1,42 @@
+.friend_list {
+  width: 400px;
+  list-style: none;
+  padding-left: 0;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.statusOnline {
+  background-color: green;
+}
+
+.statusOffline {
+  background-color: red;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.item {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(133, 228, 32, 0.792);
+  border-radius: 5px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
